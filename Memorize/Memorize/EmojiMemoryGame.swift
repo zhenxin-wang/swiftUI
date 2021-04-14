@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct EmojiMemoryGame{
-    var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+class EmojiMemoryGame : ObservableObject{
+    @Published var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
     
     static func createMemoryGame() -> MemoryGame<String> {
