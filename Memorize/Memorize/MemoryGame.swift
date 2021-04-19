@@ -25,6 +25,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable{
             cards.append(Card( content: content, id: pairsIndex*2))
             cards.append(Card( content: content, id: pairsIndex*2+1))
         }
+//        cards.sort(by: T##(MemoryGame<Equatable>.Card, MemoryGame<Equatable>.Card) throws -> Bool)
         
     }
     
