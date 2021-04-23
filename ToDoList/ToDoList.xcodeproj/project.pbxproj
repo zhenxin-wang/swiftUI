@@ -13,6 +13,8 @@
 		CA77DB02262EB151003AFDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77DB01262EB151003AFDC7 /* Assets.xcassets */; };
 		CA77DB05262EB151003AFDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77DB04262EB151003AFDC7 /* Preview Assets.xcassets */; };
 		CA77DB08262EB151003AFDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA77DB06262EB151003AFDC7 /* LaunchScreen.storyboard */; };
+		CA77DB13262EC73F003AFDC7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77DB12262EC73F003AFDC7 /* UserData.swift */; };
+		CA77DB16262ED5E2003AFDC7 /* EditingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77DB15262ED5E2003AFDC7 /* EditingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA77DB04262EB151003AFDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA77DB07262EB151003AFDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA77DB09262EB151003AFDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA77DB12262EC73F003AFDC7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CA77DB15262ED5E2003AFDC7 /* EditingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CA77DAFB262EB14A003AFDC7 /* AppDelegate.swift */,
 				CA77DAFD262EB14A003AFDC7 /* SceneDelegate.swift */,
 				CA77DAFF262EB14A003AFDC7 /* ContentView.swift */,
+				CA77DB15262ED5E2003AFDC7 /* EditingPage.swift */,
+				CA77DB12262EC73F003AFDC7 /* UserData.swift */,
 				CA77DB01262EB151003AFDC7 /* Assets.xcassets */,
 				CA77DB06262EB151003AFDC7 /* LaunchScreen.storyboard */,
 				CA77DB09262EB151003AFDC7 /* Info.plist */,
@@ -147,7 +153,9 @@
 			files = (
 				CA77DAFC262EB14A003AFDC7 /* AppDelegate.swift in Sources */,
 				CA77DAFE262EB14A003AFDC7 /* SceneDelegate.swift in Sources */,
+				CA77DB13262EC73F003AFDC7 /* UserData.swift in Sources */,
 				CA77DB00262EB14A003AFDC7 /* ContentView.swift in Sources */,
+				CA77DB16262ED5E2003AFDC7 /* EditingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
