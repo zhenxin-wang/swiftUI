@@ -12,9 +12,13 @@ struct ContentView: View {
     @State var viewState = CGSize.zero
     var body: some View {
         ZStack {//叠加
+            
+                
             BlurView(style: .systemMaterial)
+            
             TitleView()
                 .blur(radius: show ? 20 : 0)//背景模糊效果
+            
             CardBottomView()
                 .blur(radius: show ? 20 : 0)//背景模糊效果
                 .animation(.default)
